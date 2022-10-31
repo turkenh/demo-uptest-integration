@@ -8,5 +8,5 @@ jobs:
   e2e:
     uses: turkenh/uptest/.github/workflows/pr-comment-trigger.yml@main
     secrets:
-      UPTEST_CLOUD_CREDENTIALS: ${{ secrets.UPTEST_AWS_CREDS }}
-      UPTEST_DATASOURCE: ${{ secrets.UPTEST_EXAMPLE_VALUE_REPLACEMENTS }}
+      UPTEST_CLOUD_CREDENTIALS: ${{ secrets.UPTEST_CLOUD_CREDENTIALS }}
+      UPTEST_DATASOURCE: ${{ secrets.UPTEST_DATASOURCE }}
